@@ -368,9 +368,9 @@ class SettingScreen extends React.Component<Props, State> {
               {this.state.shouldShowRemovePincode && (
                 <ActionButton
                   flex={1}
-                  title={"Remove Pincode"}
+                  title={"REmove Pincode"}
                   width={"100%"}
-                  fillColor="#EDF0FC"
+                  fillColor="yellow"
                   textColor={theme.darkBlue}
                   style={{
                     borderWidth: 0,
